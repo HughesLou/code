@@ -2,10 +2,10 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintCode.model;
+package com.hughes.lintcode.model;
 
 /**
- * ¶þ²æÊ÷µÄ¶¨Òå
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
  * <p>
  * Created by luzhiwei01 on 2017/12/17 22:49.
  */

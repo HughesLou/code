@@ -2,11 +2,10 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintCode;
+package com.hughes.lintcode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.logging.Logger;
 
 import javax.swing.tree.TreeNode;
 
