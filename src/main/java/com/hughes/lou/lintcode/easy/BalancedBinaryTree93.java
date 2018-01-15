@@ -2,9 +2,9 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintcode.easy;
+package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lintcode.model.TreeNode;
+import com.hughes.lou.lintcode.model.TreeNode;
 
 /**
  * Created by luzhiwei01 on 2017/12/17 23:04.

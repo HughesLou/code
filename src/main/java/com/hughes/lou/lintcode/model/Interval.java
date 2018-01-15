@@ -2,7 +2,7 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintcode.model;
+package com.hughes.lou.lintcode.model;
 
 /**
  * Created by luzhiwei01 on 2017/12/24 22:30.

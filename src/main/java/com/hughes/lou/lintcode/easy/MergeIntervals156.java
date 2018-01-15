@@ -2,15 +2,14 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintcode.easy;
+package com.hughes.lou.lintcode.easy;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.List;
 
-import com.hughes.lintcode.model.Interval;
+import com.hughes.lou.lintcode.model.Interval;
 
 /**
  * Created by luzhiwei01 on 2017/12/24 22:31.

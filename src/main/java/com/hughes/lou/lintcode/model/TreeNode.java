@@ -2,7 +2,7 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintcode.model;
+package com.hughes.lou.lintcode.model;
 
 /**
  * �������Ķ���

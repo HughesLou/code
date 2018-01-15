@@ -2,7 +2,7 @@
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
 
-package com.hughes.lintcode.easy;
+package com.hughes.lou.lintcode.easy;
 
 import java.util.ArrayList;
 import java.util.List;
