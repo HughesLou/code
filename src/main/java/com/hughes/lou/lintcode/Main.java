@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) 2017 Hughes Lou, Inc. All Rights Reserved.
  */
 
 package com.hughes.lou.lintcode;
