@@ -11,6 +11,18 @@ import java.util.List;
  * Created by luzhiwei01 on 2017/12/16 22:22.
  */
 public class RecoverRotatedSortedArray39 {
+    public static void main(String[] args) {
+        List<Integer> input = new ArrayList<>();
+        input.add(4);
+        input.add(5);
+        input.add(1);
+        input.add(2);
+        input.add(3);
+        RecoverRotatedSortedArray39 recoverRotatedSortedArray = new RecoverRotatedSortedArray39();
+        recoverRotatedSortedArray.recoverRotatedSortedArray(input);
+        System.out.println(input);
+    }
+
     /*
      * @param nums: An integer array
      * @return: nothing
@@ -37,18 +49,6 @@ public class RecoverRotatedSortedArray39 {
             nums.set(i, nums.get(j));
             nums.set(j, temp);
         }
-    }
-
-    public static void main(String[] args) {
-        List<Integer> input = new ArrayList<>();
-        input.add(4);
-        input.add(5);
-        input.add(1);
-        input.add(2);
-        input.add(3);
-        RecoverRotatedSortedArray39 recoverRotatedSortedArray = new RecoverRotatedSortedArray39();
-        recoverRotatedSortedArray.recoverRotatedSortedArray(input);
-        System.out.println(input);
     }
 
     public void mergeSortedArray(int[] A, int m, int[] B, int n) {

@@ -29,7 +29,7 @@ public class AddTwoNumbers167 {
         ListNode result = new ListNode(0);
         ListNode current = result;
         int carry = 0;
-        while(null != l1 && null != l2) {
+        while (null != l1 && null != l2) {
             int sum = l1.val + l2.val + carry;
             carry = sum / 10;
             current.next = new ListNode(sum % 10);
