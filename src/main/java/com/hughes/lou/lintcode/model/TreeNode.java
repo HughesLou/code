@@ -7,7 +7,7 @@ package com.hughes.lou.lintcode.model;
 /**
  * �������Ķ���
  * <p>
- * Created by luzhiwei01 on 2017/12/17 22:49.
+ * Created by hughes on 2017/12/17 22:49.
  */
 public class TreeNode {
     public int val;

@@ -5,7 +5,7 @@
 package com.hughes.lou.lintcode.model;
 
 /**
- * Created by luzhiwei01 on 2017/12/17 23:22.
+ * Created by hughes on 2017/12/17 23:22.
  */
 public class ListNode {
     public int val;

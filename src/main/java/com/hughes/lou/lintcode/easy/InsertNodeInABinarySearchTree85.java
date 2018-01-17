@@ -7,7 +7,7 @@ package com.hughes.lou.lintcode.easy;
 import com.hughes.lou.lintcode.model.TreeNode;
 
 /**
- * Created by luzhiwei01 on 2017/12/17 22:52.
+ * Created by hughes on 2017/12/17 22:52.
  */
 public class InsertNodeInABinarySearchTree85 {
     /*

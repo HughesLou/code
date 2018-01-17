@@ -7,7 +7,7 @@ package com.hughes.lou.lintcode.easy;
 import com.hughes.lou.lintcode.model.ListNode;
 
 /**
- * Created by luzhiwei01 on 2017/12/17 23:23.
+ * Created by hughes on 2017/12/17 23:23.
  */
 public class PartitionList96 {
 

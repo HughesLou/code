@@ -7,7 +7,7 @@ package com.hughes.lou.lintcode.easy;
 import com.hughes.lou.lintcode.model.TreeNode;
 
 /**
- * Created by luzhiwei01 on 2017/12/17 23:04.
+ * Created by hughes on 2017/12/17 23:04.
  */
 public class BalancedBinaryTree93 {
 

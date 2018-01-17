@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by luzhiwei01 on 2017/12/24 21:59.
+ * Created by hughes on 2017/12/24 21:59.
  */
 public class SubarraySum138 {
 

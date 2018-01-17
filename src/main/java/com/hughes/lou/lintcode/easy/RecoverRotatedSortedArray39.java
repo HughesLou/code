@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by luzhiwei01 on 2017/12/16 22:22.
+ * Created by hughes on 2017/12/16 22:22.
  */
 public class RecoverRotatedSortedArray39 {
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ import java.util.List;
 import com.hughes.lou.lintcode.model.Interval;
 
 /**
- * Created by luzhiwei01 on 2017/12/24 22:31.
+ * Created by hughes on 2017/12/24 22:31.
  */
 public class MergeIntervals156 {
     /*

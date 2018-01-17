@@ -5,7 +5,7 @@
 package com.hughes.lou.lintcode.easy;
 
 /**
- * Created by luzhiwei01 on 2017/12/16 23:27.
+ * Created by hughes on 2017/12/16 23:27.
  */
 public class CompareStrings55 {
     /*
