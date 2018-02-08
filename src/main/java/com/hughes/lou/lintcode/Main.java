@@ -15,6 +15,7 @@ import javax.swing.tree.TreeNode;
 public class Main {
 
     //    private static final Logger logger = LoggerFactory.getLogger(Main.class);
+    private static int MAXIMUM_CAPACITY = 1 << 30;
 
     public static void main(String[] args) throws Exception {
         String base = "83000224,83000240";
@@ -34,12 +35,31 @@ public class Main {
         String v5 = "6.1";
         String v6 = "14.1.3.5";
 
+        int initialCapacity = 100;
+        float loadFactor = 0.75f;
+
+        long size = (long) (1.0 + (long) initialCapacity / loadFactor);
+        int cap = (size >= (long) MAXIMUM_CAPACITY) ?
+                MAXIMUM_CAPACITY : tableSizeFor((int) size);
+
+        System.out.println(cap);
+
         System.out.println(compareVersion(v0, v1));
         System.out.println(compareVersion(v0, v2));
         System.out.println(compareVersion(v0, v3));
         System.out.println(compareVersion(v0, v4));
         System.out.println(compareVersion(v0, v5));
         System.out.println(compareVersion(v0, v6));
+    }
+
+    public static final int tableSizeFor(int c) {
+        int n = c - 1;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
     }
 
     public static int compareVersion(String version1, String version2) throws Exception {
