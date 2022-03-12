@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/19 22:04.
  */
-public class MatrixZigzagTraversal185 {
+public class MatrixZigzagTraversal185 implements Easy {
     /*
      * @param matrix: An array of integers
      * @return: An array of integers

@@ -7,10 +7,12 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by hughes on 2017/12/24 21:59.
  */
-public class SubarraySum138 {
+public class SubarraySum138 implements Easy {
 
     /*
      * @param nums: A list of integers

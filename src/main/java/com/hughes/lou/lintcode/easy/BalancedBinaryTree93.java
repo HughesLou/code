@@ -4,12 +4,13 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.TreeNode;
 
 /**
  * Created by hughes on 2017/12/17 23:04.
  */
-public class BalancedBinaryTree93 {
+public class BalancedBinaryTree93 implements Easy {
 
     /*
      * @param root: The root of binary tree.

@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 20:27.
  */
-public class CheckSumOfSquareNumbers697 {
+public class CheckSumOfSquareNumbers697 implements Easy {
     /*
      * @param : the given number
      * @return: whether whether there're two integers

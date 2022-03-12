@@ -4,12 +4,13 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.ListNode;
 
 /**
  * Created by hughes on 2017/12/24 23:03.
  */
-public class AddTwoNumbers167 {
+public class AddTwoNumbers167 implements Easy {
     /*
      * @param l1: the first list
      * @param l2: the second list

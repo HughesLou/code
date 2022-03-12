@@ -7,16 +7,17 @@ package com.hughes.lou.lintcode.easy;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 16:03.
  */
-public class NumberOfIslands433 {
+public class NumberOfIslands433 implements Easy {
     /**
      * BFS
      * add visited to reduce process
      *
      * @param grid: a boolean 2D matrix
-     *
      * @return: an integer
      */
     public int numIslands(boolean[][] grid) {

@@ -4,10 +4,14 @@
 
 package com.hughes.lou.lintcode;
 
+import java.io.File;
+import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
 import javax.swing.tree.TreeNode;
+
+import org.apache.commons.io.FileUtils;
 
 /**
  * Created by hughes on 2017/12/17 00:02.
@@ -18,14 +22,38 @@ public class Main {
     private static int MAXIMUM_CAPACITY = 1 << 30;
 
     public static void main(String[] args) throws Exception {
-        String base = "83000224,83000240";
-        String test = "83000240";
-        boolean result;
-        if (base.contains(test)) {
-            result = true;
-        } else {
-            result = false;
+
+        try {
+            byte[] pcm16k = FileUtils.readFileToByteArray(new File(
+                    "/Users/hugheslou/Downloads/lsm_9164676264_1645148284687_1645148334605_src-16k-pcm_align"));
+
+            byte[] vocal = FileUtils.readFileToByteArray(new File(
+                    "/Users/hugheslou/Downloads/lsm_9164676264_1645148284687_1645148334605_src-vocal-16k-pcm_align"));
+
+            int size = Math.min(pcm16k.length, vocal.length);
+            byte[] music = new byte[size];
+            for (int i = 0; i < size; ) {
+                int a = (pcm16k[i] & 0xFF) | ((pcm16k[i + 1] & 0xFF) << 8);
+                int b = (vocal[i] & 0xFF) | ((vocal[i + 1] & 0xFF) << 8);
+                int delta = a - b;
+
+                music[i] = (byte) (delta & 0xFF);
+                music[i + 1] = (byte) (delta >> 8);
+                i += 2;
+            }
+            FileUtils.writeByteArrayToFile(
+                    new File("/Users/hugheslou/Downloads/lsm_9164676264_1645148284687_1645148334605_src-music-16k-pcm"),
+                    music);
+            System.out.println("done");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+        int[] array1 =
+                new int[] {0, 40, 44, 48, 53, 58, 64, 70, 77, 93, 112, 134, 161, 210, 273, 355, 461, 623, 841, 1135,
+                        1533};
+        int[] array2 =
+                new int[] {0, 20, 22, 24, 26, 29, 32, 35, 38, 46, 56, 67, 80, 105, 136, 177, 230, 311, 420, 567, 766};
 
         String v0 = "4.3";
         String v1 = "4.1.3.5";
@@ -39,8 +67,7 @@ public class Main {
         float loadFactor = 0.75f;
 
         long size = (long) (1.0 + (long) initialCapacity / loadFactor);
-        int cap = (size >= (long) MAXIMUM_CAPACITY) ?
-                MAXIMUM_CAPACITY : tableSizeFor((int) size);
+        int cap = (size >= (long) MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : tableSizeFor((int) size);
 
         System.out.println(cap);
 
@@ -51,6 +78,27 @@ public class Main {
         System.out.println(compareVersion(v0, v5));
         System.out.println(compareVersion(v0, v6));
     }
+
+    public static int convertByteArrayToInt(byte[] bytes) {
+        return ByteBuffer.wrap(bytes).getInt();
+    }
+
+    // method 2, bitwise again, 0xff for sign extension
+    public static int convertByteArrayToInt2(byte[] bytes) {
+        return ((bytes[0] & 0xFF) << 24) |
+                ((bytes[1] & 0xFF) << 16) |
+                ((bytes[2] & 0xFF) << 8) |
+                ((bytes[3] & 0xFF));
+    }
+
+    public static String convertBytesToHex(byte[] bytes) {
+        StringBuilder result = new StringBuilder();
+        for (byte temp : bytes) {
+            result.append(String.format("%02x", temp));
+        }
+        return result.toString();
+    }
+
 
     public static final int tableSizeFor(int c) {
         int n = c - 1;

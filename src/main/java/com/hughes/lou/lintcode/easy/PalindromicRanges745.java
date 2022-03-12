@@ -4,15 +4,16 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/21 00:07.
  */
-public class PalindromicRanges745 {
+public class PalindromicRanges745 implements Easy {
 
     /**
      * @param L: A positive integer
      * @param R: A positive integer
-     *
      * @return: the number of interesting subranges of [L, R]
      */
     public static int PalindromicRanges(int L, int R) {

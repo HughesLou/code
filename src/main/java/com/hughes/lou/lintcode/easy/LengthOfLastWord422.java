@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 15:50.
  */
-public class LengthOfLastWord422 {
+public class LengthOfLastWord422 implements Easy {
     /*
      * @param s: A string
      * @return: the length of last word

@@ -4,13 +4,14 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 20:47.
  */
-public class FindElementsInMatrix737 {
+public class FindElementsInMatrix737 implements Easy {
     /**
      * @param Matrix: the input
-     *
      * @return: the element which appears every row
      */
     public int FindElements(int[][] Matrix) {

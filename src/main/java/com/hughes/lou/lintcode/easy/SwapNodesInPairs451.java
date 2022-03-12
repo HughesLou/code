@@ -4,12 +4,13 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.ListNode;
 
 /**
  * Created by Hughes on 2018/1/20 16:44.
  */
-public class SwapNodesInPairs451 {
+public class SwapNodesInPairs451 implements Easy {
 
     /*
      * @param head: a ListNode

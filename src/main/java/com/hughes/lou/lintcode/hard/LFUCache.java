@@ -9,10 +9,12 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Objects;
 
+import com.hughes.lou.lintcode.level.Hard;
+
 /**
  * Created by Hughes on 2018/1/24 23:05.
  */
-public class LFUCache {
+public class LFUCache implements Hard {
     Node head = null;
     final int capacity;
     Map<Integer, Integer> valueMap;

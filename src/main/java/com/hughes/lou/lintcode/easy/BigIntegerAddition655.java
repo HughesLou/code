@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 19:50.
  */
-public class BigIntegerAddition655 {
+public class BigIntegerAddition655 implements Easy {
 
     /*
      * @param num1: a non-negative integers

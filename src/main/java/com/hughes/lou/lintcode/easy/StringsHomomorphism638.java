@@ -7,10 +7,12 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 19:18.
  */
-public class StringsHomomorphism638 {
+public class StringsHomomorphism638 implements Easy {
     /*
      * @param s: a string
      * @param t: a string

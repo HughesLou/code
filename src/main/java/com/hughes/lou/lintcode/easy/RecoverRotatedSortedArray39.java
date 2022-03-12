@@ -7,10 +7,12 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by hughes on 2017/12/16 22:22.
  */
-public class RecoverRotatedSortedArray39 {
+public class RecoverRotatedSortedArray39 implements Easy {
     public static void main(String[] args) {
         List<Integer> input = new ArrayList<>();
         input.add(4);

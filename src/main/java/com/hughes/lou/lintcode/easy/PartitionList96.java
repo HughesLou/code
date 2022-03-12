@@ -4,12 +4,13 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.ListNode;
 
 /**
  * Created by hughes on 2017/12/17 23:23.
  */
-public class PartitionList96 {
+public class PartitionList96 implements Easy {
 
     /*
      * @param head: The first node of linked list

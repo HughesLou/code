@@ -7,10 +7,12 @@ package com.hughes.lou.lintcode.hard;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import com.hughes.lou.lintcode.level.Hard;
+
 /**
  * Created by Hughes on 2018/1/24 23:05.
  */
-public class LRUCache {
+public class LRUCache implements Hard {
     // 保持当前缓存key
     public ArrayList<Integer> list = new ArrayList<>();
     // 缓存的实际值

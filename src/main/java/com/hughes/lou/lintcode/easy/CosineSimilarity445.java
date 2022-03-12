@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 16:28.
  */
-public class CosineSimilarity445 {
+public class CosineSimilarity445 implements Easy {
     /*
      * @param A: An integer array
      * @param B: An integer array

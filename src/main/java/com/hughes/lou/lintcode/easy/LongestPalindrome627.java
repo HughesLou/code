@@ -7,10 +7,12 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 19:06.
  */
-public class LongestPalindrome627 {
+public class LongestPalindrome627 implements Easy {
     /*
      * @param s: a string which consists of lowercase or uppercase letters
      * @return: the length of the longest palindromes that can be built
@@ -29,7 +31,7 @@ public class LongestPalindrome627 {
         int result = 0;
         boolean flag = false;
 
-        for (Character character:values.keySet()){
+        for (Character character : values.keySet()) {
             int num = values.get(character);
             if (0 != num % 2) {
                 result += num - 1;
@@ -39,6 +41,6 @@ public class LongestPalindrome627 {
             }
         }
 
-        return flag ? result + 1: result;
+        return flag ? result + 1 : result;
     }
 }

@@ -4,15 +4,16 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/19 22:25.
  */
-public class PermutationIndex197 {
+public class PermutationIndex197 implements Easy {
     /**
      * 看做是多个数字组成的一个数，然后比较大小
      *
      * @param A an integer array
-     *
      * @return a long integer
      */
     public long permutationIndex(int[] A) {

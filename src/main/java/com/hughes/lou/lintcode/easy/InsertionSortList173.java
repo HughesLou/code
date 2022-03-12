@@ -4,12 +4,13 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.ListNode;
 
 /**
  * Created by Hughes on 2018/1/19 21:39.
  */
-public class InsertionSortList173 {
+public class InsertionSortList173 implements Easy {
 
     /*
      * @param head: The first node of linked list.

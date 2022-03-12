@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by hughes on 2017/12/16 23:27.
  */
-public class CompareStrings55 {
+public class CompareStrings55 implements Easy {
     /*
      * @param A: A string
      * @param B: A string

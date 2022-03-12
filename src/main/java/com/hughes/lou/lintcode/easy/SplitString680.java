@@ -7,10 +7,12 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 20:13.
  */
-public class SplitString680 {
+public class SplitString680 implements Easy {
     /*
      * @param : a string to be split
      * @return: all possible split string array

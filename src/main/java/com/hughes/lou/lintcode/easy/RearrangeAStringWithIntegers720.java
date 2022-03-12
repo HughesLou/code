@@ -4,10 +4,12 @@
 
 package com.hughes.lou.lintcode.easy;
 
+import com.hughes.lou.lintcode.level.Easy;
+
 /**
  * Created by Hughes on 2018/1/20 23:49.
  */
-public class RearrangeAStringWithIntegers720 {
+public class RearrangeAStringWithIntegers720 implements Easy {
 
     /*
      * @param str: a string containing uppercase alphabets and integer digits
@@ -21,10 +23,10 @@ public class RearrangeAStringWithIntegers720 {
         int[] array = new int[256];
         int sum = 0;
         StringBuilder result = new StringBuilder();
-        for(int i = 0; i < str.length(); ++i) {
+        for (int i = 0; i < str.length(); ++i) {
             char ch = str.charAt(i);
             if (ch >= 'A' && ch <= 'Z') {
-                ++ array[str.charAt(i)];
+                ++array[str.charAt(i)];
             } else {
                 sum += ch - '0';
             }
