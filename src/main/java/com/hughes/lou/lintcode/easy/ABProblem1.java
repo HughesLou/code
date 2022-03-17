@@ -5,7 +5,7 @@ import com.hughes.lou.lintcode.level.Easy;
 /**
  * 给出两个整数 aa 和 bb , 求他们的和。
  *
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2021-02-26
  */
 public class ABProblem1 implements Easy {

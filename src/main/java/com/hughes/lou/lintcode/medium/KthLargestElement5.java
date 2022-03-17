@@ -5,7 +5,7 @@ import com.hughes.lou.lintcode.level.Medium;
 /**
  * 在数组中找到第 k 大的元素。
  *
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2021-02-26
  */
 public class KthLargestElement5 implements Medium {

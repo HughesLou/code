@@ -5,7 +5,7 @@ import com.hughes.lou.lintcode.level.Medium;
 /**
  * 计算数字 k 在 0 到 n 中的出现的次数，k 可能是 0~9 的一个值。
  *
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2021-02-26
  */
 public class DigitCounts3 implements Medium {

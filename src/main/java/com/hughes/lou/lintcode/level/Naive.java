@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.level;
 
 /**
  * @author HughesLou
- * Created on 2021-02-26
+ * Created on 2022-03-17
  */
-public interface Easy {
+public interface Naive {
 }

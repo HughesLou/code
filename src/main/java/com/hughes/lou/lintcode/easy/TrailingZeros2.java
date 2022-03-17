@@ -5,7 +5,7 @@ import com.hughes.lou.lintcode.level.Easy;
 /**
  * 计算出n阶乘中尾部零的个数
  *
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2021-02-26
  */
 public class TrailingZeros2 implements Easy {

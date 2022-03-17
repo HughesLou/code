@@ -11,7 +11,7 @@ import com.hughes.lou.lintcode.level.Medium;
  * <p>
  * 符合条件的数如：1, 2, 3, 4, 5, 6, 8, 9, 10, 12...
  *
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2021-02-26
  */
 public class UglyNumber4 implements Medium {
