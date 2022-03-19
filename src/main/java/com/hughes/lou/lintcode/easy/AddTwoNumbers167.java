@@ -17,7 +17,6 @@ public class AddTwoNumbers167 implements Easy {
      * @return: the sum list of l1 and l2
      */
     public ListNode addLists(ListNode l1, ListNode l2) {
-        // write your code here
         if (null == l1 && null == l2) {
             return null;
         }
@@ -31,30 +30,30 @@ public class AddTwoNumbers167 implements Easy {
         ListNode current = result;
         int carry = 0;
         while (null != l1 && null != l2) {
-            int sum = l1.val + l2.val + carry;
+            int sum = l1.getVal() + l2.getVal() + carry;
             carry = sum / 10;
-            current.next = new ListNode(sum % 10);
-            current = current.next;
-            l1 = l1.next;
-            l2 = l2.next;
+            current.setNext(new ListNode(sum % 10));
+            current = current.getNext();
+            l1 = l1.getNext();
+            l2 = l2.getNext();
         }
         while (null != l1) {
-            int sum = l1.val + carry;
+            int sum = l1.getVal() + carry;
             carry = sum / 10;
-            current.next = new ListNode(sum % 10);
-            current = current.next;
-            l1 = l1.next;
+            current.setNext(new ListNode(sum % 10));
+            current = current.getNext();
+            l1 = l1.getNext();
         }
         while (null != l2) {
-            int sum = l2.val + carry;
+            int sum = l2.getVal() + carry;
             carry = sum / 10;
-            current.next = new ListNode(sum % 10);
-            current = current.next;
-            l2 = l2.next;
+            current.setNext(new ListNode(sum % 10));
+            current = current.getNext();
+            l2 = l2.getNext();
         }
         if (0 != carry) {
-            current.next = new ListNode(carry);
+            current.setNext(new ListNode(carry));
         }
-        return result.next;
+        return result.getNext();
     }
 }

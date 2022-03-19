@@ -19,7 +19,6 @@ public class SubarraySum138 implements Easy {
      * @return: A list of integers includes the index of the first number and the index of the last number
      */
     public List<Integer> subarraySum(int[] nums) {
-        // write your code here
         List<Integer> result = new ArrayList<>();
         int sum = 0;
         for (int i = 0; i < nums.length; ++i) {

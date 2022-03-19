@@ -21,7 +21,6 @@ public class MergeIntervals156 implements Easy {
      * @return: A new interval list.
      */
     public List<Interval> merge(List<Interval> intervals) {
-        // write your code here
         List<Interval> result = new ArrayList<>();
 
         Collections.sort(intervals, new IntervalComparator());

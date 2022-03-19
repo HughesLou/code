@@ -15,7 +15,6 @@ public class CheckSumOfSquareNumbers697 implements Easy {
      * @return: whether whether there're two integers
      */
     public boolean checkSumOfSquareNumbers(int num) {
-        // write your code here
         if (0 > num) {
             return false;
         }

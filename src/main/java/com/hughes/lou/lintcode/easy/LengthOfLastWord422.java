@@ -15,7 +15,6 @@ public class LengthOfLastWord422 implements Easy {
      * @return: the length of last word
      */
     public int lengthOfLastWord(String s) {
-        // write your code here
         if (null == s) {
             return 0;
         }

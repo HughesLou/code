@@ -16,7 +16,6 @@ public class CosineSimilarity445 implements Easy {
      * @return: Cosine similarity
      */
     public double cosineSimilarity(int[] A, int[] B) {
-        // write your code here
         if (null == A || null == B || A.length != B.length) {
             return 0;
         }

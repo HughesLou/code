@@ -21,7 +21,6 @@ public class NumberOfIslands433 implements Easy {
      * @return: an integer
      */
     public int numIslands(boolean[][] grid) {
-        // write your code here
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
         }

@@ -19,7 +19,6 @@ public class StringsHomomorphism638 implements Easy {
      * @return: true if the characters in s can be replaced to get t or false
      */
     public boolean isIsomorphic(String s, String t) {
-        // write your code here
         Map<Character, Character> map = new HashMap<>();
         if (s.length() != t.length()) {
             return false;

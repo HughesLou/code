@@ -16,7 +16,6 @@ public class CompareStrings55 implements Easy {
      * @return: if string A contains all of the characters in B return true else return false
      */
     public boolean compareStrings(String A, String B) {
-        // write your code here
         if (A.length() < B.length()) {
             return false;
         }

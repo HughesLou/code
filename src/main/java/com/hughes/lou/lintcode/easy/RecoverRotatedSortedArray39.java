@@ -30,7 +30,6 @@ public class RecoverRotatedSortedArray39 implements Easy {
      * @return: nothing
      */
     public void recoverRotatedSortedArray(List<Integer> nums) {
-        // write your code here
         if (nums == null) {
             return;
         }
@@ -54,7 +53,6 @@ public class RecoverRotatedSortedArray39 implements Easy {
     }
 
     public void mergeSortedArray(int[] A, int m, int[] B, int n) {
-        // write your code here
         int a = m - 1;
         int b = n - 1;
         for (int i = m + n - 1; i >= 0 && b >= 0; i--) {

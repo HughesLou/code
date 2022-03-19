@@ -15,7 +15,6 @@ public class MatrixZigzagTraversal185 implements Easy {
      * @return: An array of integers
      */
     public int[] printZMatrix(int[][] matrix) {
-        // write your code here
         int x, y, dx, dy, count, m, n;
         x = y = 0;
         count = 1;

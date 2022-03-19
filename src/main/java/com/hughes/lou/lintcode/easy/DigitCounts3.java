@@ -1,6 +1,8 @@
-package com.hughes.lou.lintcode.medium;
+package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Medium;
+import java.util.Scanner;
+
+import com.hughes.lou.lintcode.level.Easy;
 
 /**
  * 计算数字 k 在 0 到 n 中的出现的次数，k 可能是 0~9 的一个值。
@@ -8,7 +10,7 @@ import com.hughes.lou.lintcode.level.Medium;
  * @author HughesLou
  * Created on 2021-02-26
  */
-public class DigitCounts3 implements Medium {
+public class DigitCounts3 implements Easy {
 
     /*
      * param k : As description.
@@ -35,5 +37,14 @@ public class DigitCounts3 implements Medium {
             i = i / 10;
         }
         return cnt;
+    }
+
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        int k = Integer.parseInt(scanner.nextLine());
+        int n = Integer.parseInt(scanner.nextLine());
+
+        DigitCounts3 digitCounts3 = new DigitCounts3();
+        System.out.println(digitCounts3.digitCounts(k, n));
     }
 }

@@ -1,4 +1,6 @@
-package com.hughes.lou.lintcode.easy;
+package com.hughes.lou.lintcode.navie;
+
+import java.util.Scanner;
 
 import com.hughes.lou.lintcode.level.Easy;
 
@@ -30,7 +32,18 @@ public class ABProblem1 implements Easy {
             int _b = (a & b) << 1;
             a = _a;
             b = _b;
+            System.out.println(a + " " + b);
         }
         return a;
+    }
+
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        int a = Integer.parseInt(scanner.nextLine());
+        int b = Integer.parseInt(scanner.nextLine());
+
+        ABProblem1 abProblem1 = new ABProblem1();
+        int c = abProblem1.plus(a, b);
+        System.out.println(c);
     }
 }

@@ -17,7 +17,6 @@ public class BigIntegerAddition655 implements Easy {
      * @return: return sum of num1 and num2
      */
     public String addStrings(String num1, String num2) {
-        // write your code here
         int carry = 0;
         int i = num1.length() - 1, j = num2.length() - 1;
         String result = "";

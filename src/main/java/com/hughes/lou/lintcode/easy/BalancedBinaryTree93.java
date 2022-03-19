@@ -17,7 +17,6 @@ public class BalancedBinaryTree93 implements Easy {
      * @return: True if this Binary tree is Balanced, or false.
      */
     public boolean isBalanced(TreeNode root) {
-        // write your code here
         return maxDepth(root) != -1;
     }
 

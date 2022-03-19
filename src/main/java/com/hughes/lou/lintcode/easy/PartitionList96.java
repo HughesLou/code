@@ -18,25 +18,24 @@ public class PartitionList96 implements Easy {
      * @return: A ListNode
      */
     public ListNode partition(ListNode head, int x) {
-        // write your code here
         if (null == head) {
-            return head;
+            return null;
         }
         ListNode left = new ListNode(0);
         ListNode right = new ListNode(0);
         ListNode leftTemp = left, rightTemp = right;
         while (null != head) {
-            if (head.val < x) {
-                leftTemp.next = head;
-                leftTemp = leftTemp.next;
+            if (head.getVal() < x) {
+                leftTemp.setNext(head);
+                leftTemp = leftTemp.getNext();
             } else {
-                rightTemp.next = head;
-                rightTemp = rightTemp.next;
+                rightTemp.setNext(head);
+                rightTemp = rightTemp.getNext();
             }
-            head = head.next;
+            head = head.getNext();
         }
-        rightTemp.next = null;
-        leftTemp.next = right.next;
-        return left.next;
+        rightTemp.setNext(null);
+        leftTemp.setNext(right.getNext());
+        return left.getNext();
     }
 }

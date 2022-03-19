@@ -19,7 +19,6 @@ public class FirstPositionUniqueCharacter646 implements Easy {
      * @return: it's index
      */
     public int firstUniqChar(String s) {
-        // write your code here
         Map<Character, Integer> values = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (values.containsKey(s.charAt(i))) {

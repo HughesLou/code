@@ -17,7 +17,6 @@ public class InsertNodeInABinarySearchTree85 implements Easy {
      * @return: The root of the new binary search tree.
      */
     public TreeNode insertNode(TreeNode root, TreeNode node) {
-        // write your code here
         if (null == root) {
             root = node;
         } else {

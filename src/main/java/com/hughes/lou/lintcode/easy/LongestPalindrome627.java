@@ -18,7 +18,6 @@ public class LongestPalindrome627 implements Easy {
      * @return: the length of the longest palindromes that can be built
      */
     public int longestPalindrome(String s) {
-        // write your code here
         Map<Character, Integer> values = new HashMap<>();
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {

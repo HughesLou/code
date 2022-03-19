@@ -15,7 +15,6 @@ public class FindElementsInMatrix737 implements Easy {
      * @return: the element which appears every row
      */
     public int FindElements(int[][] Matrix) {
-        // write your code here
         boolean exist = false;
         for (int i = 0; i < Matrix[0].length; i++) {
             for (int j = 1; j < Matrix.length; j++) {

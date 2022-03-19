@@ -16,7 +16,6 @@ public class RearrangeAStringWithIntegers720 implements Easy {
      * @return: the alphabets in the order followed by the sum of digits
      */
     public String rearrange(String str) {
-        // Write your code here
         if (null == str) {
             return null;
         }

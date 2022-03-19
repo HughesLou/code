@@ -17,7 +17,6 @@ public class PalindromicRanges745 implements Easy {
      * @return: the number of interesting subranges of [L, R]
      */
     public static int PalindromicRanges(int L, int R) {
-        // Write your code here
         if (L > R) {
             return 0;
         }

@@ -17,7 +17,6 @@ public class PermutationIndex197 implements Easy {
      * @return a long integer
      */
     public long permutationIndex(int[] A) {
-        // Write your code here
         long R = 0;
         int low[] = new int[A.length];
         long weight[] = new long[A.length];

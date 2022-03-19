@@ -23,15 +23,15 @@ public class InsertionSortList173 implements Easy {
 
         while (head != null) {
             ListNode node = dummy;
-            while (node.next != null && node.next.val < head.val) {
-                node = node.next;
+            while (node.getNext() != null && node.getNext().getVal() < head.getVal()) {
+                node = node.getNext();
             }
-            ListNode temp = head.next;
-            head.next = node.next;
-            node.next = head;
+            ListNode temp = head.getNext();
+            head.setNext(node.getNext());
+            node.setNext(head);
             head = temp;
         }
 
-        return dummy.next;
+        return dummy.getNext();
     }
 }
