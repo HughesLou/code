@@ -6,6 +6,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import com.hughes.lou.lintcode.level.Easy;
 
@@ -13,17 +14,6 @@ import com.hughes.lou.lintcode.level.Easy;
  * Created by hughes on 2017/12/16 22:22.
  */
 public class RecoverRotatedSortedArray39 implements Easy {
-    public static void main(String[] args) {
-        List<Integer> input = new ArrayList<>();
-        input.add(4);
-        input.add(5);
-        input.add(1);
-        input.add(2);
-        input.add(3);
-        RecoverRotatedSortedArray39 recoverRotatedSortedArray = new RecoverRotatedSortedArray39();
-        recoverRotatedSortedArray.recoverRotatedSortedArray(input);
-        System.out.println(input);
-    }
 
     /*
      * @param nums: An integer array
@@ -62,5 +52,18 @@ public class RecoverRotatedSortedArray39 implements Easy {
                 A[i] = B[b--];
             }
         }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String a = scanner.nextLine();
+        List<Integer> list = new ArrayList<>();
+        for (String element : a.split(" ")) {
+            list.add(Integer.parseInt(element));
+        }
+
+        RecoverRotatedSortedArray39 recoverRotatedSortedArray = new RecoverRotatedSortedArray39();
+        recoverRotatedSortedArray.recoverRotatedSortedArray(list);
+        System.out.println(list);
     }
 }

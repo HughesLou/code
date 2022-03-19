@@ -8,6 +8,8 @@ import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.TreeNode;
 
 /**
+ * 给定一个二叉树,确定它是高度平衡的。对于这个问题,一棵高度平衡的二叉树的定义是：一棵二叉树中每个节点的两个子树的深度相差不会超过1。
+ * <p>
  * Created by hughes on 2017/12/17 23:04.
  */
 public class BalancedBinaryTree93 implements Easy {
@@ -25,8 +27,8 @@ public class BalancedBinaryTree93 implements Easy {
             return 0;
         }
 
-        int left = maxDepth(root.left);
-        int right = maxDepth(root.right);
+        int left = maxDepth(root.getLeft());
+        int right = maxDepth(root.getRight());
         if (left == -1 || right == -1 || Math.abs(left - right) > 1) {
             return -1;
         }
