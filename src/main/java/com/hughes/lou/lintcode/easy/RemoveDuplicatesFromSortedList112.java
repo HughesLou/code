@@ -21,11 +21,11 @@ public class RemoveDuplicatesFromSortedList112 implements Easy {
         }
 
         ListNode node = head;
-        while (node.getNext() != null) {
-            if (node.getVal() == node.getNext().getVal()) {
-                node.setNext(node.getNext().getNext());
+        while (node.next != null) {
+            if (node.val == node.next.val) {
+                node.next = node.next.next;
             } else {
-                node = node.getNext();
+                node = node.next;
             }
         }
         return head;

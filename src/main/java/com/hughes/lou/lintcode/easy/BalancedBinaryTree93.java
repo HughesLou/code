@@ -27,8 +27,8 @@ public class BalancedBinaryTree93 implements Easy {
             return 0;
         }
 
-        int left = maxDepth(root.getLeft());
-        int right = maxDepth(root.getRight());
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.left);
         if (left == -1 || right == -1 || Math.abs(left - right) > 1) {
             return -1;
         }

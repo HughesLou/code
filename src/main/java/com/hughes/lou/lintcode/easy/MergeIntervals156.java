@@ -5,7 +5,6 @@
 package com.hughes.lou.lintcode.easy;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -13,6 +12,8 @@ import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.Interval;
 
 /**
+ * 给出若干闭合区间，合并所有重叠的部分。
+ * <p>
  * Created by hughes on 2017/12/24 22:31.
  */
 public class MergeIntervals156 implements Easy {
@@ -21,9 +22,9 @@ public class MergeIntervals156 implements Easy {
      * @return: A new interval list.
      */
     public List<Interval> merge(List<Interval> intervals) {
-        List<Interval> result = new ArrayList<>();
+        intervals.sort(Comparator.comparingInt(o -> o.start));
 
-        Collections.sort(intervals, new IntervalComparator());
+        List<Interval> result = new ArrayList<>();
 
         Interval last = null;
         for (Interval item : intervals) {
@@ -35,11 +36,5 @@ public class MergeIntervals156 implements Easy {
             }
         }
         return result;
-    }
-
-    private class IntervalComparator implements Comparator<Interval> {
-        public int compare(Interval a, Interval b) {
-            return a.start - b.start;
-        }
     }
 }

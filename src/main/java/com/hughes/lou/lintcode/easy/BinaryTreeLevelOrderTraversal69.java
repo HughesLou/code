@@ -36,12 +36,12 @@ public class BinaryTreeLevelOrderTraversal69 implements Easy {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode head = queue.poll();
-                level.add(head.getVal());
-                if (head.getLeft() != null) {
-                    queue.offer(head.getLeft());
+                level.add(head.val);
+                if (head.left != null) {
+                    queue.offer(head.left);
                 }
-                if (head.getRight() != null) {
-                    queue.offer(head.getRight());
+                if (head.right != null) {
+                    queue.offer(head.right);
                 }
             }
             result.add(level);
@@ -63,12 +63,12 @@ public class BinaryTreeLevelOrderTraversal69 implements Easy {
         while (queue.size() > 1) {
             TreeNode node = queue.poll();
             if (node != last) {
-                currentLevel.add(node.getVal());
-                if (node.getLeft() != null) {
-                    queue.add(node.getLeft());
+                currentLevel.add(node.val);
+                if (node.left != null) {
+                    queue.add(node.left);
                 }
-                if (node.getRight() != null) {
-                    queue.add(node.getRight());
+                if (node.right != null) {
+                    queue.add(node.right);
                 }
             } else {
                 result.addFirst(new ArrayList<>(currentLevel));

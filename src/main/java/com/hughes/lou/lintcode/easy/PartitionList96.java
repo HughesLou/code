@@ -30,17 +30,17 @@ public class PartitionList96 implements Easy {
         ListNode right = new ListNode(0);
         ListNode leftTemp = left, rightTemp = right;
         while (null != head) {
-            if (head.getVal() < x) {
-                leftTemp.setNext(head);
-                leftTemp = leftTemp.getNext();
+            if (head.val < x) {
+                leftTemp.next = head;
+                leftTemp = leftTemp.next;
             } else {
-                rightTemp.setNext(head);
-                rightTemp = rightTemp.getNext();
+                rightTemp.next = head;
+                rightTemp = rightTemp.next;
             }
-            head = head.getNext();
+            head = head.next;
         }
-        rightTemp.setNext(null);
-        leftTemp.setNext(right.getNext());
-        return left.getNext();
+        rightTemp.next = null;
+        leftTemp.next = right.next;
+        return left.next;
     }
 }

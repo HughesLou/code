@@ -10,13 +10,13 @@ import com.hughes.lou.lintcode.model.ListNode;
 public class ReverseLinkedList implements Easy {
 
     public ListNode reverse(ListNode head) {
-        if (null == head || null == head.getNext()) {
+        if (null == head || null == head.next) {
             return head;
         }
 
-        ListNode reversedHead = reverse(head.getNext());
-        head.getNext().setNext(head);
-        head.setNext(null);
+        ListNode reversedHead = reverse(head.next);
+        head.next.next = head;
+        head.next = null;
         return reversedHead;
     }
 
@@ -25,15 +25,15 @@ public class ReverseLinkedList implements Easy {
             return null;
         }
         ListNode pre = head;
-        ListNode cur = head.getNext();
+        ListNode cur = head.next;
         ListNode next;
         while (null != cur) {
-            next = cur.getNext();
-            cur.setNext(pre);
+            next = cur.next;
+            cur.next = pre;
             pre = cur;
             cur = next;
         }
-        head.setNext(null);
+        head.next = null;
         head = pre;
         return head;
     }
@@ -51,21 +51,21 @@ public class ReverseLinkedList implements Easy {
         ListNode p = head;
         for (int i = 1; i < m; i++) {
             q = p;
-            p = p.getNext();
+            p = p.next;
         }
         ListNode end = p;
         ListNode pPre = p;
-        p = p.getNext();
+        p = p.next;
         for (int i = m + 1; i <= n; i++) {
-            ListNode pNext = p.getNext();
+            ListNode pNext = p.next;
 
-            p.setNext(pPre);
+            p.next = pPre;
             pPre = p;
             p = pNext;
         }
-        end.setNext(p);
+        end.next = p;
         if (q != null) {
-            q.setNext(pPre);
+            q.next = pPre;
         } else {
             head = pPre;
         }

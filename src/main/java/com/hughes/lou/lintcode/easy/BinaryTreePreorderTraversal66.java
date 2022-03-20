@@ -24,9 +24,9 @@ public class BinaryTreePreorderTraversal66 implements Easy {
             return result;
         }
 
-        result.add(root.getVal());
-        result.addAll(preorderTraversal(root.getLeft()));
-        result.addAll(preorderTraversal(root.getRight()));
+        result.add(root.val);
+        result.addAll(preorderTraversal(root.left));
+        result.addAll(preorderTraversal(root.right));
         return result;
     }
 }

@@ -13,7 +13,7 @@ public class CountLinkedListNodes466 implements Naive {
         int count = 0;
         while (head != null) {
             count++;
-            head = head.getNext();
+            head = head.next;
         }
         return count;
     }

@@ -17,6 +17,6 @@ public class MaximumDepthOfBinaryTree97 implements Easy {
         if (root == null) {
             return 0;
         }
-        return Math.max(maxDepth(root.getLeft()), maxDepth(root.getRight())) + 1;
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }

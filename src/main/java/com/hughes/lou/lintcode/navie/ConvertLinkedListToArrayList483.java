@@ -18,8 +18,8 @@ public class ConvertLinkedListToArrayList483 implements Naive {
     public List<Integer> toArrayList(ListNode head) {
         List<Integer> result = new ArrayList<>();
         while (head != null) {
-            result.add(head.getVal());
-            head = head.getNext();
+            result.add(head.val);
+            head = head.next;
         }
         return result;
     }

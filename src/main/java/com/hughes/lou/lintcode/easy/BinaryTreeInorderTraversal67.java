@@ -24,9 +24,9 @@ public class BinaryTreeInorderTraversal67 implements Easy {
             return result;
         }
 
-        result.addAll(inorderTraversal(root.getLeft()));
-        result.add(root.getVal());
-        result.addAll(inorderTraversal(root.getRight()));
+        result.addAll(inorderTraversal(root.left));
+        result.add(root.val);
+        result.addAll(inorderTraversal(root.right));
         return result;
     }
 }

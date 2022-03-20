@@ -19,21 +19,21 @@ public class SwapNodesInPairs451 implements Easy {
     public ListNode swapPairs(ListNode head) {
         // swap-nodes-in-pairs
         ListNode dummy = new ListNode(0);
-        dummy.setNext(head);
+        dummy.next = head;
 
         head = dummy;
-        while (head.getNext() != null && head.getNext().getNext() != null) {
-            ListNode n1 = head.getNext(), n2 = head.getNext().getNext();
+        while (head.next != null && head.next.next != null) {
+            ListNode n1 = head.next, n2 = head.next.next;
             // head->n1->n2->...
             // => head->n2->n1->...
-            head.setNext(n2);
-            n1.setNext(n2.getNext());
-            n2.setNext(n1);
+            head.next = n2;
+            n1.next = n2.next;
+            n2.next = n1;
 
             // move to next pair
             head = n1;
         }
 
-        return dummy.getNext();
+        return dummy.next;
     }
 }

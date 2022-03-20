@@ -21,10 +21,10 @@ public class InsertNodeInABinarySearchTree85 implements Easy {
             root = node;
         } else {
             if (null != node) {
-                if (root.getVal() > node.getVal()) {
-                    root.setLeft(insertNode(root.getLeft(), node));
+                if (root.val > node.val) {
+                    root.left = insertNode(root.left, node);
                 } else {
-                    root.setRight(insertNode(root.getRight(), node));
+                    root.right = insertNode(root.right, node);
                 }
             }
         }

@@ -15,14 +15,14 @@ public class MiddleOfLinkedList228 implements Naive {
      * @return: a middle node of the linked list
      */
     public ListNode middleNode(ListNode head) {
-        if (head == null || head.getNext() == null) {
+        if (head == null || head.next == null) {
             return head;
         }
 
-        ListNode slow = head, fast = head.getNext();
-        while (fast != null && fast.getNext() != null) {
-            fast = fast.getNext().getNext();
-            slow = slow.getNext();
+        ListNode slow = head, fast = head.next;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
         return slow;
     }
