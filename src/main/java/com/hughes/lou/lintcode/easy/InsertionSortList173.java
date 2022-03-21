@@ -8,6 +8,8 @@ import com.hughes.lou.lintcode.level.Easy;
 import com.hughes.lou.lintcode.model.ListNode;
 
 /**
+ * 用插入排序对链表排序
+ *
  * Created by Hughes on 2018/1/19 21:39.
  */
 public class InsertionSortList173 implements Easy {

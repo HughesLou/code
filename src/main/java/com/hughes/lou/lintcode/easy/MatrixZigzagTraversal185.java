@@ -7,6 +7,8 @@ package com.hughes.lou.lintcode.easy;
 import com.hughes.lou.lintcode.level.Easy;
 
 /**
+ * 给你一个包含 m x n 个元素的矩阵 (m 行, n 列), 求该矩阵的之字型遍历。
+ * <p>
  * Created by Hughes on 2018/1/19 22:04.
  */
 public class MatrixZigzagTraversal185 implements Easy {
