@@ -1,6 +1,7 @@
 package com.hughes.lou.lintcode.medium;
 
 import com.hughes.lou.lintcode.level.Medium;
+import com.hughes.lou.lintcode.utils.Utils;
 
 /**
  * 在数组中找到第 k 大的元素。
@@ -39,7 +40,7 @@ public class KthLargestElement5 implements Medium {
                 right--;
             }
             if (left <= right) {
-                swap(nums, left, right);
+                Utils.swap(nums, left, right);
                 left++;
                 right--;
             }
@@ -52,11 +53,5 @@ public class KthLargestElement5 implements Medium {
             return partition(nums, left, end, k);
         }
         return nums[k];
-    }
-
-    private void swap(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
     }
 }

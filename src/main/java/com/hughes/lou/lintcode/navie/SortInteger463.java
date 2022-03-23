@@ -3,6 +3,7 @@ package com.hughes.lou.lintcode.navie;
 import java.util.Arrays;
 
 import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.lintcode.utils.Utils;
 
 /**
  * Created by Hughes on 2016/8/14.
@@ -22,7 +23,7 @@ public class SortInteger463 implements Naive {
         for (int i = 0; i < A.length; i++) {
             for (int j = i + 1; j < A.length; j++) {
                 if (A[i] > A[j]) {
-                    swap(A, i, j);
+                    Utils.swap(A, i, j);
                 }
             }
         }
@@ -47,7 +48,7 @@ public class SortInteger463 implements Naive {
         for (int i = 0; i < A.length; i++) {
             key = selectMinKey(A, i, A.length);
             if (key != i) {
-                swap(A, key, i);
+                Utils.swap(A, key, i);
             }
         }
     }
@@ -60,12 +61,6 @@ public class SortInteger463 implements Naive {
             }
         }
         return key;
-    }
-
-    private void swap(int[] A, int i, int j) {
-        int temp = A[i];
-        A[i] = A[j];
-        A[j] = temp;
     }
 
     public static void main(String[] args) {
