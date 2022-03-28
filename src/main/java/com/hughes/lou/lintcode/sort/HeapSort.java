@@ -75,7 +75,7 @@ public class HeapSort implements Sort {
             list.add(Integer.parseInt(element));
         }
 
-        int[] array = ArrayUtils.toPrimitive(list.toArray(new Integer[0]), 0);
+        int[] array = ArrayUtils.toPrimitive(list.toArray(new Integer[0]));
 
         System.out.println(ObjectMapperUtils.toJSON(array));
         new HeapSort().sort(array);

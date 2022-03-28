@@ -35,6 +35,6 @@ public class MaxOfArray214 implements Naive {
         }
 
         MaxOfArray214 maxOfArray214 = new MaxOfArray214();
-        System.out.println(maxOfArray214.maxOfArray(ArrayUtils.toPrimitive(list.toArray(new Float[0]), 0f)));
+        System.out.println(maxOfArray214.maxOfArray(ArrayUtils.toPrimitive(list.toArray(new Float[0]))));
     }
 }
