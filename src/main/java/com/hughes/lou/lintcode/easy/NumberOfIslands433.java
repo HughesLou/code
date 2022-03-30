@@ -8,6 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.lintcode.model.Coordinate;
 
 /**
  * Created by Hughes on 2018/1/20 16:03.
@@ -21,12 +22,11 @@ public class NumberOfIslands433 implements Easy {
      * @return: an integer
      */
     public int numIslands(boolean[][] grid) {
-        if (grid == null || grid.length == 0 || grid[0].length == 0) {
+        if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
             return 0;
         }
 
-        int n = grid.length;
-        int m = grid[0].length;
+        int n = grid.length, m = grid[0].length;
         int islands = 0;
         boolean[][] visited = new boolean[n][m];
 
@@ -42,7 +42,6 @@ public class NumberOfIslands433 implements Easy {
             }
         }
         return islands;
-
     }
 
     private void markByBFS(boolean[][] grid, int x, int y, boolean[][] visited) {
@@ -65,10 +64,9 @@ public class NumberOfIslands433 implements Easy {
                 if (inBound(newX, newY, grid) && !visited[newX][newY]) {
                     visited[newX][newY] = true;
 
-                    Coordinate around = new Coordinate(newX, newY);
-                    if (grid[around.x][around.y]) {
-                        grid[around.x][around.y] = false;
-                        queue.offer(around);
+                    if (grid[newX][newY]) {
+                        grid[newX][newY] = false;
+                        queue.offer(new Coordinate(newX, newY));
                     }
                 }
             }
@@ -82,19 +80,52 @@ public class NumberOfIslands433 implements Easy {
         return newX >= 0 && newX < n && newY >= 0 && newY < m;
     }
 
-    private boolean inBound(Coordinate coordinate, boolean[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
+    /**
+     * @param grid: a boolean 2D matrix
+     * @return: an integer
+     */
+    public int numIslands1(boolean[][] grid) {
+        if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
+            return 0;
+        }
 
-        return coordinate.x >= 0 && coordinate.x < n && coordinate.y >= 0 && coordinate.y < m;
+        int n = grid.length, m = grid[0].length;
+        boolean[][] visited = new boolean[n][m];
+
+        int islands = 0;
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < m; col++) {
+                if (isIsland(grid, row, col, visited, n, m)) {
+                    visited[row][col] = true;
+                    dfs(grid, row, col, visited, n, m);
+                    islands++;
+                }
+            }
+        }
+        return islands;
     }
-}
 
-class Coordinate {
-    int x, y;
+    private boolean isIsland(boolean[][] grid, int x, int y, boolean[][] visited, int n, int m) {
+        if (x < 0 || x >= n || y < 0 || y >= m) {
+            return false;
+        }
+        if (!grid[x][y]) {
+            return false;
+        }
+        return !visited[x][y];
+    }
 
-    public Coordinate(int x, int y) {
-        this.x = x;
-        this.y = y;
+    private void dfs(boolean[][] grid, int x, int y, boolean[][] visited, int n, int m) {
+        int[] dx = new int[] {1, 0, -1, 0};
+        int[] dy = new int[] {0, 1, 0, -1};
+        for (int direction = 0; direction < 4; direction++) {
+            int newX = x + dx[direction];
+            int newY = y + dy[direction];
+
+            if (isIsland(grid, newX, newY, visited, n, m)) {
+                visited[newX][newY] = true;
+                dfs(grid, newX, newY, visited, n, m);
+            }
+        }
     }
 }
