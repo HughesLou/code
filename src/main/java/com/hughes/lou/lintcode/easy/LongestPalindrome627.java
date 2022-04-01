@@ -5,7 +5,9 @@
 package com.hughes.lou.lintcode.easy;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import com.hughes.lou.lintcode.level.Easy;
 
@@ -20,11 +22,11 @@ public class LongestPalindrome627 implements Easy {
     public int longestPalindrome(String s) {
         Map<Character, Integer> values = new HashMap<>();
         char[] chars = s.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            if (values.containsKey(chars[i])) {
-                values.put(chars[i], values.get(chars[i]) + 1);
+        for (char aChar : chars) {
+            if (values.containsKey(aChar)) {
+                values.put(aChar, values.get(aChar) + 1);
             } else {
-                values.put(chars[i], 1);
+                values.put(aChar, 1);
             }
         }
         int result = 0;
@@ -41,5 +43,23 @@ public class LongestPalindrome627 implements Easy {
         }
 
         return flag ? result + 1 : result;
+    }
+
+    public int longestPalindrome1(String s) {
+        Set<Character> set = new HashSet<>();
+        for (char c : s.toCharArray()) {
+            if (set.contains(c)) {
+                set.remove(c);
+            } else {
+                set.add(c);
+            }
+        }
+
+        int remove = set.size();
+        // 回文串中字符个数为奇数的最多一个
+        if (remove > 0) {
+            remove -= 1;
+        }
+        return s.length() - remove;
     }
 }
