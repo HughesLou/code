@@ -20,7 +20,7 @@ public class TotalOccurrenceOfTarget462 implements Easy {
         int start = 0;
         int end = A.length - 1;
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (A[mid] < target) {
                 start = mid;
             } else {
@@ -39,7 +39,7 @@ public class TotalOccurrenceOfTarget462 implements Easy {
         start = 0;
         end = A.length - 1;
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (A[mid] <= target) {
                 start = mid;
             } else {

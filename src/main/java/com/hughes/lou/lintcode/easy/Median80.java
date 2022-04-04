@@ -19,7 +19,7 @@ public class Median80 implements Easy {
     }
 
     private int sub(int[] nums, int start, int end, int size) {
-        int mid = (start + end) / 2;
+        int mid = start + (end - start) / 2;
         int pivot = nums[mid];
         int i = start - 1, j = end + 1;
         for (int k = start; k < j; k++) {

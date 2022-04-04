@@ -19,7 +19,7 @@ public class LastPositionOfTarget458 implements Easy {
         int start = 0;
         int end = nums.length - 1;
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (nums[mid] <= target) {
                 start = mid;
             } else {

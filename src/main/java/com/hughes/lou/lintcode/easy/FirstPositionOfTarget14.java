@@ -22,7 +22,7 @@ public class FirstPositionOfTarget14 {
 
         while (left < right) {
             // 得到中间位置
-            mid = (right + left) / 2;
+            mid = left + (right - left) / 2;
             if (nums[mid] < target) {
                 left = mid + 1;
             } else {

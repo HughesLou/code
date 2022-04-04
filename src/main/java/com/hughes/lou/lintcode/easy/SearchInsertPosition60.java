@@ -21,7 +21,7 @@ public class SearchInsertPosition60 implements Easy {
         int start = 0, end = A.length - 1;
 
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (A[mid] == target) {
                 return mid;
             } else if (A[mid] < target) {
@@ -46,7 +46,7 @@ public class SearchInsertPosition60 implements Easy {
         }
         int start = 0, mid = 0, end = A.length - 1;
         while (start <= end) {
-            mid = (end + start) / 2;
+            mid = start + (end - start) / 2;
             if (A[mid] == target) {
                 return mid;
             } else if (A[mid] < target) {

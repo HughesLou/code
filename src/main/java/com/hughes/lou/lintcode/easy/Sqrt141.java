@@ -17,7 +17,7 @@ public class Sqrt141 implements Easy {
         }
         int start = 1, end = x;
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (mid < x / mid) {
                 start = mid;
             } else {

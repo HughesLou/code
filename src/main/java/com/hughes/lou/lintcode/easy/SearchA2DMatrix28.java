@@ -32,7 +32,7 @@ public class SearchA2DMatrix28 implements Easy {
 
         int start = 0, end = row - 1;
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (matrix[mid][0] == target) {
                 return true;
             } else if (matrix[mid][0] < target) {
@@ -53,7 +53,7 @@ public class SearchA2DMatrix28 implements Easy {
         start = 0;
         end = column - 1;
         while (start + 1 < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (matrix[row][mid] == target) {
                 return true;
             } else if (matrix[row][mid] < target) {
@@ -75,7 +75,7 @@ public class SearchA2DMatrix28 implements Easy {
         int left = 0, right = n * col - 1;
 
         while (left < right) {
-            int mid = (right + left) / 2;
+            int mid = left +  (right - left) / 2;
             int middleValue = matrix[mid / col][mid % col];
             if (middleValue == target) {
                 return true;
