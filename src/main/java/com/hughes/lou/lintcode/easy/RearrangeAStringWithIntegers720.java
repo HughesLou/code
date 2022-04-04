@@ -31,7 +31,7 @@ public class RearrangeAStringWithIntegers720 implements Easy {
             }
         }
 
-        for (int i = (int) 'A'; i < (int) 'Z'; ++i) {
+        for (int i = 'A'; i <= (int) 'Z'; ++i) {
             while (array[i]-- > 0) {
                 result.append((char) i);
             }
