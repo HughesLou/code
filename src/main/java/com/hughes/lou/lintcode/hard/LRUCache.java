@@ -6,6 +6,7 @@ package com.hughes.lou.lintcode.hard;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import com.hughes.lou.lintcode.level.Hard;
 
@@ -48,6 +49,40 @@ public class LRUCache implements Hard {
                 map.remove(rm);
             }
         }
+    }
 
+    LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();
+
+    public int get0(int key) {
+        if (!cache.containsKey(key)) {
+            return -1;
+        }
+        // 将 key 变为最近使用
+        makeRecently(key);
+        return cache.get(key);
+    }
+
+    public void put0(int key, int val) {
+        if (cache.containsKey(key)) {
+            // 修改 key 的值
+            cache.put(key, val);
+            // 将 key 变为最近使用
+            makeRecently(key);
+        } else {
+            // 将新的 key 添加链表尾部
+            cache.put(key, val);
+            if (cache.size() > capacity) {
+                // 链表头部就是最久未使用的 key
+                int oldestKey = cache.keySet().iterator().next();
+                cache.remove(oldestKey);
+            }
+        }
+    }
+
+    private void makeRecently(int key) {
+        int val = cache.get(key);
+        // 删除 key，重新插入到队尾
+        cache.remove(key);
+        cache.put(key, val);
     }
 }

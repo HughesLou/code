@@ -1,6 +1,9 @@
 package com.hughes.lou.lintcode.easy;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 import com.hughes.lou.lintcode.level.Easy;
 
@@ -25,13 +28,40 @@ public class TwoSum56 implements Easy {
 
         for (int i = 0; i < numbers.length; i++) {
             if (map.get(numbers[i]) != null) {
-                int[] result = {map.get(numbers[i]), i};
-                return result;
+                return new int[] {map.get(numbers[i]), i};
             }
             map.put(target - numbers[i], i);
         }
 
-        int[] result = {};
-        return result;
+        return new int[] {};
+    }
+
+    List<int[]> twoSumTarget(int[] nums, int target) {
+        // nums 数组必须有序
+        Arrays.sort(nums);
+        int lo = 0, hi = nums.length - 1;
+        List<int[]> res = new ArrayList<>();
+        while (lo < hi) {
+            int sum = nums[lo] + nums[hi];
+            int left = nums[lo], right = nums[hi];
+            if (sum < target) {
+                while (lo < hi && nums[lo] == left) {
+                    lo++;
+                }
+            } else if (sum > target) {
+                while (lo < hi && nums[hi] == right) {
+                    hi--;
+                }
+            } else {
+                res.add(new int[] {left, right});
+                while (lo < hi && nums[lo] == left) {
+                    lo++;
+                }
+                while (lo < hi && nums[hi] == right) {
+                    hi--;
+                }
+            }
+        }
+        return res;
     }
 }
