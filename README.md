@@ -1,2 +1,2 @@
-# lintcode
-answers of lintcode
+# code
+answers of leetcode&lintcode
