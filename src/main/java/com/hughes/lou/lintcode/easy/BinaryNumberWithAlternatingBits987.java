@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给一个正整数，检查它的二进制表示是否具有交替位。即，两个相邻的位总是具有不同的值。

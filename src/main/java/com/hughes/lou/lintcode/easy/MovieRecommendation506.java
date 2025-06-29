@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给一个用户看过的电影的列表信息 graph， graph[i] 表示第 i 个用户看过的电影。

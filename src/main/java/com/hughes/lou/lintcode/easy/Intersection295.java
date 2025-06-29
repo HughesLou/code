@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标

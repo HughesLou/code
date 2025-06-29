@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 在一条直的马路上，有n 棵树，每棵树有一个坐标，代表它们距离马路起点的距离。

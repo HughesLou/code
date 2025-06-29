@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.navie;
 
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * 将一个字符串中的小写字母转换为大写字母。不是字母的字符不需要做改变。

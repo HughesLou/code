@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个单词序列，检查它是否构成一个有效单词方阵。

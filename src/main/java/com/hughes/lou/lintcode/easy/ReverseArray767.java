@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.utils.Utils;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.utils.Utils;
 
 /**
  * @author HughesLou

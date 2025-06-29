@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个数组A，找到数组A中所有小于当前位置A[i]的数字，并求出所有小于A[i]的数字之和，保存在B[i]的位置上

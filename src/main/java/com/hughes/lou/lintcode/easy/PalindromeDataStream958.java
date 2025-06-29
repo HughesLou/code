@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 一个数据流进来，每次一个小写字母，当前数据流的排列是否能组成回文串。

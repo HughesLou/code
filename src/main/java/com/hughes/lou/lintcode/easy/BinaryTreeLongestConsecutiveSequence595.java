@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * 给一棵二叉树，找到最长连续路径的长度。

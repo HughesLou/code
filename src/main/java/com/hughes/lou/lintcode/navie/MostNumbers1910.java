@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.navie;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 在给定的数组中，找到出现次数最多的数字。出现次数相同时，返回数值最小的数字。

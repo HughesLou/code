@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.utils.ObjectMapperUtils;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.utils.ObjectMapperUtils;
 
 /**
  * 将一个整数分解为若干质因数之乘积。

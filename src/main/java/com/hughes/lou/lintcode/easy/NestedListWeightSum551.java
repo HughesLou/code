@@ -2,8 +2,8 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.NestedInteger;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.NestedInteger;
 
 /**
  * 给一个嵌套的整数列表, 返回列表中所有整数由它们的深度加权后的总和.

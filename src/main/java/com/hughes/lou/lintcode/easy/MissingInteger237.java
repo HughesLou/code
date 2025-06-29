@@ -2,8 +2,8 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.ArrayList;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.BitInteger;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.BitInteger;
 
 /**
  * 在数组 A 中，包含 0 到 n 的整数，其中缺失了一个数。在

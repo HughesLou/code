@@ -3,8 +3,8 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.Interval;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.Interval;
 
 /**
  * 合并两个已排序的区间列表，并将其作为一个新的有序区间列表返回。

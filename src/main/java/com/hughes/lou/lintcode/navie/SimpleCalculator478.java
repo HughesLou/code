@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.navie;
 
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * 给出两个整数 a , b ,以及一个操作符 opeator +, -, *, / 返回结果 a<operator>b

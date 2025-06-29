@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定整数 n ，按照如下规则打印从 1 到 n 的每个数：

@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.navie;
 
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * 反转一个只有3位数的整数。

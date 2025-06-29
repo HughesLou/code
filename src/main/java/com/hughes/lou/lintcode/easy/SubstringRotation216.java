@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定 s1 和 s2，请设计一种方法来检验 s2 是否为 s1 的循环移动后的字符串。

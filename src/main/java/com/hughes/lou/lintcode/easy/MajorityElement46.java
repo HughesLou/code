@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个整型数组，找出主元素，它在数组中的出现次数大于数组元素个数的二分之一。

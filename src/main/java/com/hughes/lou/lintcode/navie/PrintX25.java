@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
-import com.hughes.lou.lintcode.utils.ObjectMapperUtils;
+import com.hughes.lou.level.Naive;
+import com.hughes.lou.utils.ObjectMapperUtils;
 
 /**
  * 输入一个正整数N， 你需要按样例的方式返回一个字符串列表。

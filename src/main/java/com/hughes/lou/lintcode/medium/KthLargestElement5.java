@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.medium;
 
-import com.hughes.lou.lintcode.level.Medium;
-import com.hughes.lou.lintcode.utils.Utils;
+import com.hughes.lou.level.Medium;
+import com.hughes.lou.utils.Utils;
 
 /**
  * 在数组中找到第 k 大的元素。

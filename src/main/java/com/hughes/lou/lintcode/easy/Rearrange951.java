@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.Arrays;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给一列数组要求重排，必须所有偶数位上的数都小于所有奇数位上的数。

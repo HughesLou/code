@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.ListNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.ListNode;
 
 /**
  * 给定一个排序链表，删除所有重复的元素，每个元素只留下一个。

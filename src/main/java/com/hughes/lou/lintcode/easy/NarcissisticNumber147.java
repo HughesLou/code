@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 水仙花数的定义是，这个数等于他每一位数上的幂次之和

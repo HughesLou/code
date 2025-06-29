@@ -3,8 +3,8 @@ package com.hughes.lou.lintcode.easy;
 import java.util.Comparator;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.Interval;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.Interval;
 
 /**
  * 给定一系列的会议时间间隔，包括起始和结束时间[[s1,e1]，[s2,e2]，…(si < ei)，确定一个人是否可以参加所有会议。

@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出两个字符串, 你需要修改第一个字符串，将所有与第二个字符串中相同的字符删除,

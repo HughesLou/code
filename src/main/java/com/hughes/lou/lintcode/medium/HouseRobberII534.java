@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.medium;
 
-import com.hughes.lou.lintcode.level.Medium;
+import com.hughes.lou.level.Medium;
 
 /**
  * 在上次打劫完一条街道之后，窃贼又发现了一个新的可以打劫的地方，

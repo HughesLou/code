@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个启动 IP 地址 ip 和我们需要覆盖的 IP 数量 n，

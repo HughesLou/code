@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 将一个整数中的数字进行颠倒，当颠倒后的整数溢出 32 位整数的范围 时，返回 0 。

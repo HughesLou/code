@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个 n * n 的矩阵，如果每一条从左上到右下的斜线上的数值相同，返回 true， 否则返回false。

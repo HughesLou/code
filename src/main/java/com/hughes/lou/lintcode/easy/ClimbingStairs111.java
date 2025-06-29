@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 假设你正在爬楼梯，需要n步你才能到达顶部。但每次你只能爬一步或者两步，爬到顶部的方法有多少种？

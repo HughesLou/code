@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.navie;
 
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * 给一个字符串, 转换为整数。你可以假设这个字符串是一个有效整数的字符串形式， 且范围在32位整数之间 (-2^31 ~ 2^31 - 1)。

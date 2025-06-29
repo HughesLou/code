@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 一个黑白显示屏由一个单独的字节数组组成，这个屏幕允许 8 个连续像素由一个字节进行存储。

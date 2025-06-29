@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.navie;
 
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * Created by Hughes on 2016/8/14.

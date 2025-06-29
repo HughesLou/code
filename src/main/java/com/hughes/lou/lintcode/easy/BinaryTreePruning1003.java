@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * 给定二叉树的根节点，树上每个节点的值是0或1。

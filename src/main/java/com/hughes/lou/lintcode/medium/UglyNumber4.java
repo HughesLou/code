@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-import com.hughes.lou.lintcode.level.Medium;
+import com.hughes.lou.level.Medium;
 
 /**
  * 找出只含素因子2，3，5 的第 n 小的数。

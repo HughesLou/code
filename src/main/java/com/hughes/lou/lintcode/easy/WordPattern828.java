@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个模式串pattern和一个字符串str，请问str和pattern是否遵循相同的模式。

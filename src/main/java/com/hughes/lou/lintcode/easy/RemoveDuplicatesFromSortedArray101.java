@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给你一个排序数组，删除其中的重复元素，使得每个数字最多出现两次，返回新的数组的长度。

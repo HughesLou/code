@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 你有 n 枚硬币，想要摆放成阶梯形状，即第 k 行恰好有 k 枚硬币。

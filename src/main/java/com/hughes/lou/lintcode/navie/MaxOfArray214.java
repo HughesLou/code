@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * 给一个浮点数数组，求数组中的最大值。

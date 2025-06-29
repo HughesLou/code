@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * 给定二叉搜索树(BST)，将其转换为更大的树，

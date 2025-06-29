@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出两个句子words1和words2（每个用一个字符串数组表示），和一个相似词对数组pairs，你需要判断两个句子是否相似。

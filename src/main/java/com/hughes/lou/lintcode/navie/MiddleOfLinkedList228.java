@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.navie;
 
-import com.hughes.lou.lintcode.level.Naive;
-import com.hughes.lou.lintcode.model.ListNode;
+import com.hughes.lou.level.Naive;
+import com.hughes.lou.model.ListNode;
 
 /**
  * 找链表的中点，并返回这个节点

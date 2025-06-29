@@ -3,8 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.navie.ABProblem1;
+import com.hughes.lou.level.Easy;
 
 /**
  * @author HughesLou

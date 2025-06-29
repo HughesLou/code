@@ -4,8 +4,8 @@
 
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * 给定一个二叉树,确定它是高度平衡的。对于这个问题,一棵高度平衡的二叉树的定义是：一棵二叉树中每个节点的两个子树的深度相差不会超过1。

@@ -4,8 +4,8 @@
 
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * Created by hughes on 2017/12/17 22:52.

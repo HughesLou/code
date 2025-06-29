@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.navie;
 
-import com.hughes.lou.lintcode.level.Naive;
+import com.hughes.lou.level.Naive;
 
 /**
  * @author HughesLou

@@ -7,8 +7,8 @@ package com.hughes.lou.lintcode.easy;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.Coordinate;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.Coordinate;
 
 /**
  * Created by Hughes on 2018/1/20 16:03.

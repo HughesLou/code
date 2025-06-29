@@ -4,8 +4,8 @@
 
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.ListNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.ListNode;
 
 /**
  * 你有两个用链表代表的整数，其中每个节点包含一个数字。

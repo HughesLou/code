@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个只含非负整数的m∗n网格，找到一条从左上角到右下角的可以使数字和最小的路径。

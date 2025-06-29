@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.Interval;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.Interval;
 
 /**
  * 给出若干闭合区间，合并所有重叠的部分。

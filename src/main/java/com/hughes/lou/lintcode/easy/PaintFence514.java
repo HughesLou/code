@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 我们有一个栅栏，它有n个柱子，现在要给柱子染色，有k种颜色可以染。

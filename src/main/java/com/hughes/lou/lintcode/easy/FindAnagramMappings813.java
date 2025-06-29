@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.HashMap;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出了两个A和B的列表，从A映射到B，B是由A的一种回文构词法构成通过随机化A中元素的顺序来实现的。

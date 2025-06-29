@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.ListNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.ListNode;
 
 /**
  * 给定一个链表，删除链表中倒数第n个节点，返回链表的头节点。

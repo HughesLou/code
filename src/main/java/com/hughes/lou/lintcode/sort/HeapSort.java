@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import com.hughes.lou.lintcode.utils.ObjectMapperUtils;
-import com.hughes.lou.lintcode.utils.Utils;
+import com.hughes.lou.utils.ObjectMapperUtils;
+import com.hughes.lou.utils.Utils;
 
 /**
  * 堆是具有以下性质的完全二叉树，每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆；

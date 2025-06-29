@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.ArrayList;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出一个字符串 str,你需要按顺序提取出该字符串的符号和单词。

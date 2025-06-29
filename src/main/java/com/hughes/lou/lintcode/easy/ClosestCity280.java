@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.utils.ObjectMapperUtils;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.utils.ObjectMapperUtils;
 
 /**
  * 在一个二维平面上有许多城市，所有的城市都有着自己的名字c[i]c[i]，以及位置坐标(x[i],y[i])(x[i],y[i])（都为整数）。

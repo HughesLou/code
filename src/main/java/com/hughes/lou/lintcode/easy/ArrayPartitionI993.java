@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.Arrays;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给一个有 2n 个整数的数组，你的任务是把这些整数分成 n 组，

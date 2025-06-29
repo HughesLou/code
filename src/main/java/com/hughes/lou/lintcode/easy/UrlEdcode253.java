@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出一个代表网址 host 的字符串 base_url，和代表查询参数的数组 query_params，你需要返回带查询参数的完整 URL。

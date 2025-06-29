@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 一对相亲数是指两个整数各自的所有有效因子（除了自己以外的因子）之和等于另外一个数。比如 (220, 284) 就是一对相亲数。因为：

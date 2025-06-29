@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出一串整数流和窗口大小，计算滑动窗口中所有整数的平均值。

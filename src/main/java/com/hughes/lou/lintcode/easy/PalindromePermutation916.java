@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.BitSet;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个字符串，判断字符串是否存在一个排列是回文排列

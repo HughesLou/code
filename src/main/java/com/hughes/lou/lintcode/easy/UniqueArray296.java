@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一个长度为N的整数数组arr，返回去掉重复元素之后的数组（去掉重复元素前后数组元素相对次序不变）

@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Naive;
-import com.hughes.lou.lintcode.utils.Utils;
+import com.hughes.lou.level.Naive;
+import com.hughes.lou.utils.Utils;
 
 /**
  * Created by Hughes on 2016/8/14.

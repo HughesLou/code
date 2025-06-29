@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.hard;
 
-import com.hughes.lou.lintcode.level.Hard;
+import com.hughes.lou.level.Hard;
 
 /**
  * 当以下条件都满足时，一个密码被视为是强密码：

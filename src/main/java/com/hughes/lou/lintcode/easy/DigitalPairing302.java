@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.Arrays;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出一个数组 nums，将数组中的数两两配对。

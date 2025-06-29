@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.HashSet;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 摩尔斯电码定义了一种标准编码，把每个字母映射到一系列点和短划线，例如：a -> .-，b -> -...，c ->-.-.。

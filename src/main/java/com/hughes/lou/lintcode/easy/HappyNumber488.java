@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.HashSet;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 写一个算法来判断一个数是不是"快乐数"。

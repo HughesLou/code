@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.ListNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.ListNode;
 
 /**
  * 给出两个链表形式表示的数字,写一个函数得到这两个链表相乘乘积

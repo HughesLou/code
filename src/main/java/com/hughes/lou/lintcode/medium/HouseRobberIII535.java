@@ -3,8 +3,8 @@ package com.hughes.lou.lintcode.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Medium;
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.level.Medium;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * 在上次打劫完一条街道之后和一圈房屋之后，窃贼又发现了一个新的可以打劫的地方，

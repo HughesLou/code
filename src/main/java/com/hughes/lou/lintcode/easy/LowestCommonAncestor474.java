@@ -3,8 +3,8 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.ParentTreeNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.ParentTreeNode;
 
 /**
  * @author HughesLou

@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * X是一个好数当且仅当单独旋转每一个数位180度之后，能够得到一个合法的不同于X的数。

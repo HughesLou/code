@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.Point;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.Point;
 
 /**
  * 一个2D平面上有一堆雷达（雷达有x, y坐标，以及能探测到的范围r半径）。

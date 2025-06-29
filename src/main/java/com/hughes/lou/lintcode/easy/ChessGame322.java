@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.HashMap;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 在棋盘上

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import com.hughes.lou.lintcode.level.Naive;
-import com.hughes.lou.lintcode.model.NestedInteger;
+import com.hughes.lou.level.Naive;
+import com.hughes.lou.model.NestedInteger;
 
 /**
  * 给定一个列表，该列表中的每个元素要么是个列表，要么是整数。将其变成一个只包含整数的简单列表。

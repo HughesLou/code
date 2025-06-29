@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.easy;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给你一个大小为n的整型数组和一个大小为k的滑动窗口，将滑动窗口从头移到尾，

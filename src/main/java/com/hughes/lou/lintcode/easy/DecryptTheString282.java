@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.Collections;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 小Q想要给他的朋友发送一个神秘字符串，但是他发现字符串太长了，

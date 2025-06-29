@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.Arrays;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给出两个整型数组 inputs 和 tests，只要你能从 inputs 中挑出一对数字，

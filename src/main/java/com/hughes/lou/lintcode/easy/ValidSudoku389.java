@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 请判定一个数独是否有效。

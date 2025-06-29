@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给你一个只含有可见字符（ASCII 码范围 32 至 126）文本文件，文件中可能出现一些重复的单词，你需要对它们进行压缩。

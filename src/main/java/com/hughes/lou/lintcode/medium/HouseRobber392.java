@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.medium;
 
-import com.hughes.lou.lintcode.level.Medium;
+import com.hughes.lou.level.Medium;
 
 /**
  * 假设你是一个专业的窃贼，准备沿着一条街打劫房屋。每个房子都存放着特定金额的钱。

@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 翻转游戏：给定一个只包含两种字符的字符串：+和-。你可以将两个连续的“++”翻转成"--"，

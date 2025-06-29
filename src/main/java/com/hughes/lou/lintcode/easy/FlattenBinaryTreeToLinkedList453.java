@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.Stack;
 
-import com.hughes.lou.lintcode.model.TreeNode;
+import com.hughes.lou.model.TreeNode;
 
 /**
  * 将一棵二叉树按照前序遍历拆解成为一个 假链表。

@@ -1,7 +1,7 @@
 package com.hughes.lou.lintcode.sort;
 
 
-import com.hughes.lou.lintcode.utils.Utils;
+import com.hughes.lou.utils.Utils;
 
 /**
  * @author HughesLou

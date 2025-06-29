@@ -1,6 +1,6 @@
 package com.hughes.lou.lintcode.sort;
 
-import com.hughes.lou.lintcode.utils.Utils;
+import com.hughes.lou.utils.Utils;
 
 /**
  * @author HughesLou
@@ -39,6 +39,7 @@ public class QuickSort implements Sort {
      * 快速排序算法——partition
      */
     public int partition(int[] array, int start, int end) {
+        // 选取随机位置，这里注意要+1
         int pivot = (int) (start + Math.random() * (end - start + 1));
         int smallIndex = start - 1;
         Utils.swap(array, pivot, end);

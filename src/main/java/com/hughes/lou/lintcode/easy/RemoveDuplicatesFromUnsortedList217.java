@@ -2,8 +2,8 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.HashSet;
 
-import com.hughes.lou.lintcode.level.Easy;
-import com.hughes.lou.lintcode.model.ListNode;
+import com.hughes.lou.level.Easy;
+import com.hughes.lou.model.ListNode;
 
 /**
  * 设计一种方法，从无序链表中删除重复项。

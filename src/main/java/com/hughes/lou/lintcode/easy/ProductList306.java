@@ -3,7 +3,7 @@ package com.hughes.lou.lintcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 有一个商品列表，该列表是由 L1、L2两个子列表拼接而成。当用户浏览并翻页时，需要从列表

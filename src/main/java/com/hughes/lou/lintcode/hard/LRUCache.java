@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import com.hughes.lou.lintcode.level.Hard;
+import com.hughes.lou.level.Hard;
 
 /**
  * Created by Hughes on 2018/1/24 23:05.

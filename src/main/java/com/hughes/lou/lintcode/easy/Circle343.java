@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 有一个圆环上面有6个点，每一个点都有一个数字，对于两个圆环来说，若6个数字完全一致（顺序可以随

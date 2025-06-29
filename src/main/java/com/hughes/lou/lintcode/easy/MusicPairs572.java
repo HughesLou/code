@@ -2,7 +2,7 @@ package com.hughes.lou.lintcode.easy;
 
 import java.util.HashMap;
 
-import com.hughes.lou.lintcode.level.Easy;
+import com.hughes.lou.level.Easy;
 
 /**
  * 给定一些音乐的时长，我们想从中选两个不同的歌曲，使得他们的总时长是60的倍数，请计算我们有多少种选法。
