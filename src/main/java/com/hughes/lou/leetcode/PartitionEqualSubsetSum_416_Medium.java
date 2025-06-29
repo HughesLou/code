@@ -3,6 +3,7 @@ package com.hughes.lou.leetcode;
 import com.hughes.lou.level.Medium;
 
 public class PartitionEqualSubsetSum_416_Medium implements Medium {
+
     public boolean canPartition(int[] nums) {
         int sum = 0;
         for (int num : nums) {
