@@ -15,9 +15,10 @@ public class PartitionEqualSubsetSum_416_Medium implements Medium {
         int W = sum / 2;
         boolean[] dp = new boolean[W + 1];
         int n = nums.length;
-        for (int i = 0; i <= W; i++) {
-            dp[i] = nums[0] == i;
-        }
+//        for (int i = 0; i <= W; i++) {
+//            dp[i] = nums[0] == i;
+//        }
+        dp[0] = true;
         for (int i = 1; i < n; i++) {
             for (int j = W; j >= nums[i]; j--) {
                 dp[j] = dp[j] || dp[j - nums[i]];
@@ -25,5 +26,10 @@ public class PartitionEqualSubsetSum_416_Medium implements Medium {
         }
 
         return dp[W];
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 5, 11, 5};
+        new PartitionEqualSubsetSum_416_Medium().canPartition(nums);
     }
 }
